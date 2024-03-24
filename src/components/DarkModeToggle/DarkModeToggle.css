@@ -1,0 +1,25 @@
+/* DarkModeToggle.css */
+.dark-mode-container {
+    padding: 20px;
+    background-color: #f0f0f0;
+    transition: background-color 0.3s ease;
+}
+
+.dark-mode {
+    background-color: #333;
+    color: #fff;
+}
+
+.toggle-button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.toggle-button:hover {
+    background-color: #0056b3;
+}
